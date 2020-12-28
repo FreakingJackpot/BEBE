@@ -1,0 +1,15 @@
+Q:\C#\laba)\laba)\bin\Debug\laba).exe.config
+Q:\C#\laba)\laba)\bin\Debug\laba).exe
+Q:\C#\laba)\laba)\bin\Debug\laba).pdb
+Q:\C#\laba)\laba)\obj\Debug\laba).csprojAssemblyReference.cache
+Q:\C#\laba)\laba)\obj\Debug\laba_.Form1.resources
+Q:\C#\laba)\laba)\obj\Debug\laba_.Properties.Resources.resources
+Q:\C#\laba)\laba)\obj\Debug\laba).csproj.GenerateResource.cache
+Q:\C#\laba)\laba)\obj\Debug\laba).csproj.CoreCompileInputs.cache
+Q:\C#\laba)\laba)\obj\Debug\laba).exe
+Q:\C#\laba)\laba)\obj\Debug\laba).pdb
+Q:\C#\laba)\laba)\bin\Debug\EntityFramework.dll
+Q:\C#\laba)\laba)\bin\Debug\EntityFramework.SqlServer.dll
+Q:\C#\laba)\laba)\bin\Debug\EntityFramework.xml
+Q:\C#\laba)\laba)\bin\Debug\EntityFramework.SqlServer.xml
+Q:\C#\laba)\laba)\obj\Debug\laba).csproj.CopyComplete
