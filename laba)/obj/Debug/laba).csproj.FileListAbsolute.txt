@@ -24,7 +24,6 @@ Q:\C#\laba)\laba)\obj\Debug\laba_.ChangeColor.resources
 Q:\C#\laba)\laba)\obj\Debug\laba_.Colors.resources
 Q:\C#\laba)\laba)\obj\Debug\laba_.AddEngine.resources
 Q:\C#\laba)\laba)\obj\Debug\laba_.Engines.resources
-Q:\C#\laba)\laba)\obj\Debug\laba_.Migrations.init.resources
 Q:\C#\laba)\laba)\obj\Debug\laba_.ChangeEngine.resources
 Q:\C#\laba)\laba)\obj\Debug\laba_.AddTires.resources
 Q:\C#\laba)\laba)\obj\Debug\laba_.ChangeTires.resources
@@ -65,3 +64,9 @@ W:\C#\BEBE\laba)\obj\Debug\laba).csproj.CoreCompileInputs.cache
 W:\C#\BEBE\laba)\obj\Debug\laba).csproj.CopyComplete
 W:\C#\BEBE\laba)\obj\Debug\laba).exe
 W:\C#\BEBE\laba)\obj\Debug\laba).pdb
+Q:\C#\laba)\laba)\obj\Debug\laba_.SearchCars.resources
+Q:\C#\laba)\laba)\obj\Debug\laba_.SearchBrands.resources
+Q:\C#\laba)\laba)\obj\Debug\laba_.SearchModel.resources
+Q:\C#\laba)\laba)\obj\Debug\laba_.SearchColors.resources
+Q:\C#\laba)\laba)\obj\Debug\laba_.SearchEngines.resources
+Q:\C#\laba)\laba)\obj\Debug\laba_.SearchTires.resources

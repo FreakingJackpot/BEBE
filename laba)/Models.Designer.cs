@@ -37,12 +37,6 @@
             this.Model = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DriveUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Body = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.combo3 = new System.Windows.Forms.ComboBox();
-            this.combo2 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.combo1 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -101,7 +95,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.ShowCellErrors = false;
-            this.dataGridView1.Size = new System.Drawing.Size(346, 281);
+            this.dataGridView1.Size = new System.Drawing.Size(346, 375);
             this.dataGridView1.TabIndex = 7;
             // 
             // Id
@@ -128,77 +122,6 @@
             this.Body.Name = "Body";
             this.Body.ReadOnly = true;
             // 
-            // combo3
-            // 
-            this.combo3.FormattingEnabled = true;
-            this.combo3.Items.AddRange(new object[] {
-            "",
-            "SEDAN",
-            "COUPE",
-            "SPORTS CAR",
-            "STATION WAGON",
-            "HATCHBACK",
-            "CONVERTIBLE",
-            "SUV",
-            "MINIVAN",
-            "PICKUP TRUCK"});
-            this.combo3.Location = new System.Drawing.Point(12, 417);
-            this.combo3.Name = "combo3";
-            this.combo3.Size = new System.Drawing.Size(125, 21);
-            this.combo3.TabIndex = 26;
-            // 
-            // combo2
-            // 
-            this.combo2.FormattingEnabled = true;
-            this.combo2.Items.AddRange(new object[] {
-            "",
-            "4WD",
-            "Forward",
-            "Backward"});
-            this.combo2.Location = new System.Drawing.Point(12, 372);
-            this.combo2.Name = "combo2";
-            this.combo2.Size = new System.Drawing.Size(125, 21);
-            this.combo2.TabIndex = 25;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(9, 396);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 18);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "Body";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(12, 351);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 18);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "Drive Unit";
-            // 
-            // combo1
-            // 
-            this.combo1.FormattingEnabled = true;
-            this.combo1.Location = new System.Drawing.Point(12, 327);
-            this.combo1.Name = "combo1";
-            this.combo1.Size = new System.Drawing.Size(125, 21);
-            this.combo1.TabIndex = 27;
-            this.combo1.DropDown += new System.EventHandler(this.combo1_DropDown);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(12, 306);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 18);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "Model";
-            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(484, 407);
@@ -215,12 +138,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(547, 450);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.combo1);
-            this.Controls.Add(this.combo3);
-            this.Controls.Add(this.combo2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -230,7 +147,6 @@
             this.Text = "Models";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -241,12 +157,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox combo3;
-        private System.Windows.Forms.ComboBox combo2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox combo1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Model;

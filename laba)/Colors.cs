@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace laba_
@@ -54,32 +55,16 @@ namespace laba_
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Update_db();
+            SearchColors search = new SearchColors(dataGridView1);
+            search.ShowDialog();
         }
 
-        private void comboBox1_DropDown(object sender, EventArgs e)
-        {
-            ComboboxesAutoAdders.ColorName(sender);
-        }
         private void Update_db()
         {
-            string tmp;
-            string tmp2;
-            tmp = combo1.SelectedItem == null ? "" : combo1.SelectedItem.ToString();
-            tmp2 = combo2.SelectedItem == null ? "" : combo2.SelectedItem.ToString();
-
-            SearchModels.ColorSearchModel type = new SearchModels.ColorSearchModel() { Name = tmp, Type = tmp2 };
-            SearchingTools tools = new SearchingTools();
-            var result = tools.SearchByColorAttributes(type);
-
-            dataGridView1.Rows.Clear();
-            for (int i = 0; i < result.Count; i++)
+            using (var context = new MYDBCONTEXT())
             {
-                dataGridView1.Rows.Add();
-                var row = dataGridView1.Rows[i];
-                row.Cells["id"].Value = result[i].Id;
-                row.Cells["Color"].Value = result[i].Name;
-                row.Cells["Type"].Value = result[i].Type;
+                var result = context.Colors.OrderBy(c => c.Id).ToList();
+                GridFillers.Colors(dataGridView1, result);
             }
         }
 
