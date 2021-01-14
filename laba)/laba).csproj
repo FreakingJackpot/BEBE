@@ -179,11 +179,6 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Messages.cs" />
-    <Compile Include="Migrations\202101011921178_init.cs" />
-    <Compile Include="Migrations\202101011921178_init.designer.cs">
-      <DependentUpon>202101011921178_init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="Models.cs">
       <SubType>Form</SubType>
@@ -253,9 +248,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101011921178_init.resx">
-      <DependentUpon>202101011921178_init.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Models.resx">
       <DependentUpon>Models.cs</DependentUpon>
